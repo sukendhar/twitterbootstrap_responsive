@@ -7,13 +7,13 @@ gem "twitter-bootstrap-rails"
 
 
 Install Bootstrap
-------------------
+----------------
 
 rails g bootstrap:install
 
 
 Install Responsive layout
----------------------------
+------------------------
 
 rails g bootstrap:layout application fluid
 
@@ -35,12 +35,12 @@ Supported devices
 
 Bootstrap supports a handful of media queries in a single file to help make your projects more appropriate on different devices and screen resolutions. Here's what's included:
 
-Label 			    Layout width 	     Column width 	     Gutter width
-Large display 	    1200px and up 	     70px 	             30px
-Default 		    980px and up 	     60px 	             20px
-Portrait tablets 	768px and above 	 42px 	             20px
-Phones to tablets 	767px and below 	 Fluid columns, no fixed widths
-Phones 	            480px and below 	 Fluid columns, no fixed widths
+**Label** | Layout width<br/>
+**Large display** | 1200px and up<br/>
+**Default** | 980px and up<br/>
+**Portrait tablets** | 768px and above<br/>
+**Phones to tablets** | 767px and below<br/>
+**Phones** | 480px and below<br/>
 
 
 
